@@ -90,7 +90,7 @@ end)
 -- Key check logic
 submit.MouseButton1Click:Connect(function()
 	local key = input.Text
-	if key == "crazy" then
+	if key == "FORCRAZY" then
 		-- Success feedback
 		title.Text = "✅ Thanks for joining the Discord!"
 		hint.Text = "Loading script, please wait..."
